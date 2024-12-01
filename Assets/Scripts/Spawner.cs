@@ -5,18 +5,13 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     private Collider spawnArea;
-
     public GameObject[] fruitPrefabs;
-
     public float minSpanDelay = 0.25f;
     public float maxSpanDelay = 1f;
-
     public float minAngle = -15f;
     public float maxAngle = 15f;
-
     public float minForce = 18f;
     public float maxForce = 22f;
-    
     public float maxLifetime = 5f;
 
     private void Awake()
