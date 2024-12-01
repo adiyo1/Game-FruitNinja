@@ -1,19 +1,17 @@
-# Space Shooter Game
+# Fruit Ninja - Core Version
 
-In this game, you control a spaceship with the goal of defeating enemies and advancing through levels.  
-You can move the spaceship in four directions (right, left, up, and down) using the arrow keys and shoot enemies by pressing the spacebar.
+This is the core version of the Fruit Ninja game, focusing on the essential gameplay experience.  
+The goal is to score as many points as possible by slicing circles.  
 
-## Objective
-To progress to **level 2**, you must **hit at least 5 enemies** and earn 5 points or more.
+Key Features:
+- **No way to lose** – just keep playing and enjoy slicing!
+- The game **counts how many circles you’ve sliced** during gameplay.
 
-## New Features
-Two major improvements were added to the game:
-1. At all times, the player can see how many lives they have left during gameplay.
-2. To advance to the next level, the player must achieve a minimum of 5 points.
+A simple and fun game for all ages! 🍉  
 
 ## Play the Game
-You can play the game by clicking [here](https://adi-yohanan.itch.io/02-game).
+You can play the game by clicking [here](https://adi-yohanan.itch.io/fruitninja).
 
 ---
 
-**Submitted by:** Adi Yohanan 318725520
+**Submitted by:** Adi Yohanan
