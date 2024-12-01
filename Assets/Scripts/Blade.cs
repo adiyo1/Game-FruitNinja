@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class Blade: MonoBehaviour
+public class Blade : MonoBehaviour
 {
     private Camera mainCamera;
     private Collider bladeCollider;
     private TrailRenderer bladeTrail;
     private bool slicing;
 
-    public Vector3 direction {  get; private set; }
+    public Vector3 direction { get; private set; }
     public float sliceForce = 5f;
     public float minSliceVelocity = 0.01f;
 
@@ -59,20 +59,20 @@ public class Blade: MonoBehaviour
 
     private void StopSlicing()
     {
-        slicing= false;
-        bladeCollider.enabled= false;
+        slicing = false;
+        bladeCollider.enabled = false;
         bladeTrail.enabled = false;
     }
 
     private void ContinueSlicing()
     {
-        Vector3 newPosition =mainCamera.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 newPosition = mainCamera.ScreenToWorldPoint(Input.mousePosition);
         newPosition.z = 0f;
 
         direction = newPosition - transform.position;
 
-        float velocity = direction.magnitude / Time.deltaTime; 
-        bladeCollider.enabled =velocity >minSliceVelocity;
+        float velocity = direction.magnitude / Time.deltaTime;
+        bladeCollider.enabled = velocity > minSliceVelocity;
 
         transform.position = newPosition;
     }
