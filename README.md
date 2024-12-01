@@ -14,4 +14,10 @@ You can play the game by clicking [here](https://adi-yohanan.itch.io/fruitninja)
 
 ---
 
+## Credits
+This project was inspired by and built with the help of a tutorial by Zigurous.  
+You can watch the full tutorial [here](https://www.youtube.com/watch?v=xTT1Ae_ifhM&t=4956s).
+
+---
+
 **Submitted by:** Adi Yohanan
