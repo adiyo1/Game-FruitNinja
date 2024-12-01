@@ -23,4 +23,8 @@ jobs:
 
       - name: Run dotnet-format
         # Run dotnet-format in check mode to identify issues only in .cs files in Assets/Scripts and subfolders
+<<<<<<< HEAD
         run: dotnet-format Assets/Scripts --check --folder --include **/*.cs --verbosity diagnostic
+=======
+        run: dotnet-format Assets/Scripts --check --folder --include **/*.cs --verbosity diagnostic
+>>>>>>> 82295442e726e5594cf5aabe7ba8563e09dc649d
