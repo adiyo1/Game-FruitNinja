@@ -16,7 +16,7 @@ public class Spawner : MonoBehaviour
 
     public float minForce = 18f;
     public float maxForce = 22f;
-
+    
     public float maxLifetime = 5f;
 
     private void Awake()
